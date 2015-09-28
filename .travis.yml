@@ -4,7 +4,7 @@ after_success:
   - eval "$(ssh-agent -s)" #start the ssh agent
   - echo $RESIN_DEPLOY_KEY > id_rsa
   - ssh-add id_rsa
-  - echo "git.resin.io,22 ssh-ecsda f3:d9:c5:63:46:5c:5b:c7:8a:5e:ff:7a:2d:38:97:47" >> ~/.ssh/known_hosts
+  - cat resinkey >> ~/.ssh/known_hosts
   - git remote add resin $RESIN_REMOTE
   - git push resin master
 
