@@ -1,4 +1,4 @@
-# resin-travis-test ![It builds!](https://travis-ci.org/pcarranzav/resin-travis-test.svg?branch=master)
+# resin-travis-test ![It builds!](https://travis-ci.org/resin-io-projects/resin-travis-test.svg?branch=master)
 
 Continuous Integration on your devices:
 
